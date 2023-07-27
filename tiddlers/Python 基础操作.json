@@ -1,0 +1,23 @@
+[
+    {
+        "created": "20230727014404377",
+        "creator": "DDreame",
+        "text": "\n## 文件操作\n```python\nimport os\n_file = open(filename, 'w', encoding='utf-8')\n_file.write(str)\n_file.close()\n```\n\n其中`filename` 表示文件的完整路径.   \n`w` 表示写操作,指针位于最前方;  \n'r'表示读操作,指针位于最前方;  \n'a'表示追加操作,指针位于文件最后,与`w`不同,他不会清空文件;  \n`x`表示异或操作,文件不存在就创建文件,文件存在就直接报错.  \n`encoding` 负责文件编码.  \n",
+        "type": "text/x-markdown",
+        "title": "Python 基础操作",
+        "tags": "大类：学习 python 基础 ?",
+        "modified": "20230727020606080",
+        "modifier": "DDreame",
+        "caption": "\nPython 文件操作\n\n",
+        "due": "20230729020531265",
+        "interval": "0",
+        "difficulty": "5",
+        "stability": "2",
+        "retrievability": "1",
+        "lapses": "0",
+        "reps": "1",
+        "grade": "-1",
+        "review": "20230727020531265",
+        "history": "[]"
+    }
+]
